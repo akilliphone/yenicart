@@ -1,0 +1,101 @@
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+:root{
+    --text-color:#23232C;
+}
+
+.welcome-about{
+    position: relative;
+    /*margin: 0 -24px;*/
+    padding-top: 80px;
+    padding-bottom: 30px;
+    margin-bottom: 50px;
+    background-color: var(--brand-color);
+    text-align: center;
+    color: #fff;
+    .main-title{
+        font-size: 32px;
+        margin-bottom: 20px;
+        font-weight: 600;
+    }
+    .breadcrumb{
+        margin-bottom: 25px;
+        ul{
+            display: flex;
+            justify-content: center;
+            li{
+                .link{
+                    color: #fff;
+                    text-decoration: none;
+                    position: relative;
+                    font-size: 18px;
+                }
+                &:not(:first-child){
+                    .link{
+                        padding-left: 20px;
+                        &::before{
+                            content: "/";
+                            position: absolute;
+                            left:7px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .aboutus-content{
+        font-size: 15px;
+        line-height: 27px;
+        padding: 0 24px;
+    }
+}
+.body-about{
+    .c_row{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 40px;
+        .about-img{
+            img{
+                margin: 0 auto;
+            }
+        }
+        .about-content{
+            max-width: 100%;
+            .title{
+                font-size: 20px;
+                line-height: 46px;
+                max-width: 315px;
+                margin-bottom: 10px;
+                font-weight: 600;
+                span{
+                    font-weight:400;
+                }
+            }
+            .text{
+                font-size: 15px;
+                line-height: 27px;
+                color: #555555;
+            }
+            .btn{
+                margin: 15px 0;
+                a{
+                    display: inline-block;
+                    background: var(--brand-color);
+                    text-align: center;
+                    color: #fff;
+                    min-width: 232px;
+                    line-height:40px;
+                    vertical-align: middle;
+                    border-radius: 999px;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
+
+@import './assets/scss/bootstrap';
+@import './assets/scss/media';

@@ -1,0 +1,29 @@
+.container{
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    max-width: 100%;
+}
+
+.row{
+    display: flex;
+}
+.order-first {
+    order: -1!important;
+}
+.order-last {
+    order: 6!important;
+}
+// Container media query
+
+
+@media (min-width: 992px){
+    .container {
+       max-width: 970px;
+    }
+}
+@media (min-width: 1200px){
+    .container {
+        max-width: 1110px;
+    }
+}

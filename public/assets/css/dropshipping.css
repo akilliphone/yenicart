@@ -1,0 +1,126 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+:root {
+  --text-color:#23232C;
+}
+
+.welcome-dropshipping {
+  padding: 80px 0;
+  margin: 0 -24px;
+  background-image: url("././assets/images/dropshipping-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+}
+.welcome-dropshipping .welcome-content {
+  padding: 0 24px;
+  color: #fff;
+}
+.welcome-dropshipping .welcome-content .main-title {
+  font-size: 32px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+.welcome-dropshipping .welcome-content .breadcrumb ul {
+  display: flex;
+  justify-content: center;
+}
+.welcome-dropshipping .welcome-content .breadcrumb ul li .link {
+  color: #fff;
+  text-decoration: none;
+  position: relative;
+  font-size: 18px;
+}
+.welcome-dropshipping .welcome-content .breadcrumb ul li:not(:first-child) .link {
+  padding-left: 20px;
+}
+.welcome-dropshipping .welcome-content .breadcrumb ul li:not(:first-child) .link::before {
+  content: "/";
+  position: absolute;
+  left: 7px;
+}
+
+.join-us {
+  margin-top: 20px;
+  margin-bottom: 45px;
+}
+.join-us img {
+  margin-inline: auto;
+}
+.join-us img:not(last-child) {
+  margin-bottom: 20px;
+}
+
+.body-dropshipping {
+  text-align: center;
+}
+.body-dropshipping h2 {
+  font-size: 26px;
+  color: #222222;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+.body-dropshipping p {
+  font-size: 16px;
+  line-height: 27px;
+  margin-bottom: 30px;
+  color: #000000;
+}
+.body-dropshipping img {
+  margin: 0 auto;
+}
+.body-dropshipping strong {
+  font-size: 20px;
+  line-height: 27px;
+  font-weight: 600;
+}
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+  max-width: 100%;
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    max-width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1110px;
+  }
+}
+@media (min-width: 1200px) {
+  .welcome-dropshipping {
+    padding: 180px 0;
+    margin: 0 -24px;
+  }
+  .welcome-dropshipping .welcome-content .main-title {
+    font-size: 46px;
+    margin-bottom: 35px;
+  }
+  .join-us {
+    margin-top: -55px;
+    margin-bottom: 75px;
+    display: flex;
+    justify-content: center;
+    -moz-column-gap: 20px;
+         column-gap: 20px;
+  }
+  .join-us img {
+    margin-inline: auto;
+  }
+  .join-us img:not(last-child) {
+    margin-bottom: 20px;
+  }
+}/*# sourceMappingURL=dropshipping.css.map */
