@@ -25,7 +25,7 @@
                             </span>
                         </div>
                         <div class="signup-input">
-                            <input id="password" type="password" name="password" oninput="removeSpaces()" required >
+                            <input id="password" type="password" name="password" required >
                             <label for="">Şifre</label>
                             <span class="input-icon hidePass" data-target="#password" required>
                                 Göster
