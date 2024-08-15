@@ -57,7 +57,7 @@
                     </div>
                     <div class="signup-input">
                         <span class="label">Şifre<span>&nbsp;*</span></span>
-                        <input type="password" name="password" oninput="removeSpaces()" id="pass"  required>
+                        <input type="password" name="password"  id="pass"  required>
                     </div>
 
                     <div class="signup-input">
